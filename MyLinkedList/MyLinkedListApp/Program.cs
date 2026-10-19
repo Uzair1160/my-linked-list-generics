@@ -38,6 +38,9 @@ class Program
         }
 
         Console.WriteLine(list);
-        
+        MyLinkedList<string> list2 = new MyLinkedList<string>();
+        list2.AddAtEnd("1");
+        list2.AddAtEnd("Hallo");
+        list2.AddAtStart("Start");
     }
 }
